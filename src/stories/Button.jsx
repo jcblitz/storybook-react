@@ -22,7 +22,7 @@ export const Button = ({ primary, disabled, label, analytictag, type, ...props }
 
 Button.propTypes = {
   /**
-   * Is this the principal call to action on the page?
+   * Primary call to action on the page?
    */
   primary: PropTypes.bool,
   /**
