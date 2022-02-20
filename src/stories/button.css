@@ -1,34 +1,3 @@
-/* .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-}
-.storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
-}
-.storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-}
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
-}
-.storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
-}
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
-} */
-
 button {
   background-color: #fff;
   background-color: var(--color-background-button-active, #fff);
@@ -45,20 +14,20 @@ button {
   line-height: 0.625em;
   margin: 0;
   min-width: 4.06em;
-  padding: 0.625em 1em;
+  padding: 0.625em 2em;
   transition: background-color 200ms ease, color 200ms ease, outline 50ms ease, outline-offset 50ms ease, box-shadow 50ms ease;
 }
 
 button, .qm-button {
   line-height: 14px;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 10px 15px;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 600;
   min-width: 65px;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 .qm-button--risky {
   background-color: #C73D58;
